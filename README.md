@@ -51,16 +51,6 @@ This project is part of the Motadata Software Engineer assignment. It’s built 
 
 ---
 
-## 🧠 AI Prompt Usage
-
-Used ChatGPT to:
-- Optimize **JPA batch inserts** (`hibernate.jdbc.batch_size=1000`)
-- Implement **exponential backoff** logic on ICMP timeouts
-
-Result: 🚀 ~30% performance improvement.
-
----
-
 ## ⚠️ Key Challenges & Fixes
 
 | Challenge               | Fix                                      |
