@@ -41,3 +41,19 @@ This project is part of the Motadata Software Engineer assignment. It’s built 
 
 ## 🧩 Architecture
 
+DiscoveryController
+|
+DiscoveryService
+/
+ICMP NetFlow
+\ /
+ThreadPool (20+ threads)
+|
+Asset Inventory (JPA)
+|
+KafkaPublisher
+|
+KafkaConsumer → Compliance / CMDB
+
+
+
